@@ -18,3 +18,12 @@ a
   list-style: none;
   text-decoration: none !important;
 }
+button
+{
+  background-color: #dc3c31 !important;
+  color: #fff !important;
+}
+.bg-transparent
+{
+  background-color: transparent !important;
+}

@@ -1,0 +1,67 @@
+.banner
+{
+    margin: 50px 0;
+}
+.banner .card
+{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: none;
+}
+.banner .bg-card {
+    position: relative;
+    background-image: url(../../assets/img/banner/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+}
+
+.banner .bg-card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+    z-index: 1;
+    border-radius: 25px;
+}
+.banner .inner-card
+{
+    z-index: 100;
+    background-color: #000000ac;
+    color: #fff;
+    border-radius: 25px;
+}
+.banner .inner-card .nav-tabs .nav-link.active
+{
+    color: #161616;
+}
+.banner .inner-card .nav-tabs .nav-link
+{
+    border-radius: 0 !important;
+    color: #fff;
+}
+
+/* swiper.component.css */
+.swipe-container {
+    width: 100%;
+    height: 400px; /* Adjust the height as needed */
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .swipe-wrap {
+    display: flex;
+  }
+  
+  .swipe-item {
+    flex: 0 0 100%;
+    height: 100%;
+  }
+  
+  .swipe-item img {
+    width: 100%;
+    height: auto;
+  }
+  
