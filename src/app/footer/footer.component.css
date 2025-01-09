@@ -1,0 +1,25 @@
+footer
+{
+    background-color: #162127;
+    color: #ffffff;
+    padding: 50px 0;
+}
+
+ul.social-icons
+{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+ul.social-icons li
+{
+    margin-left: 15px;
+}
+ul.social-icons li a , a
+{
+    color: #ffffff;
+}
+ul.social-icons li a i
+{
+    font-size: 20px;
+}

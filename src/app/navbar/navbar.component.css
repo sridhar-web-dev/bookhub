@@ -1,0 +1,13 @@
+.navbar {
+    background-color: #fff;
+    border-bottom: 1px solid #f3f4f4;
+  }
+  .navbar-brand {
+    font-weight: bold;
+    color: #dc3c31;
+  }
+  .btn-primary {
+    background-color: #dc3c31;
+    border: none;
+  }
+  
